@@ -22,6 +22,7 @@ content: Content[];
 }
 
 
+
 export function Post({ author, content, publishedAt} : PostProps) {
   const [comments, setComments] = useState(["olá dev, ficou show!"]);
 
